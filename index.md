@@ -1,3 +1,0 @@
-## Finn Janssens
-
-### Portfolio
