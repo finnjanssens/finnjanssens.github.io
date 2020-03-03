@@ -11,6 +11,20 @@
   text-align: center;
 }
 
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .mb-1 {
+    letter-spacing: 0.2em;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .mb-1 {
+    letter-spacing: 0.1em;
+  }
+}
+
 .mb-5 {
   color: azure;
   font-family: 'Amatic SC',
