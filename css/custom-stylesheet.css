@@ -1,7 +1,32 @@
 .mb-1 {
-  color: bisque;
+  background: -webkit-linear-gradient(top right, rgb(0, 255, 115), rgb(197, 5, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Permanent Marker',
+    cursive;
+  font-size: 275px;
+  font-weight: bold;
+  letter-spacing: 0.4em;
+  line-height: 1;
+  text-align: center;
 }
 
 .mb-5 {
-  color: beige;
+  color: azure;
+  font-family: 'Amatic SC',
+    cursive;
+  letter-spacing: 0.6em;
+}
+
+.btn {
+  border-radius: .40rem;
+}
+
+.masthead {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(rgba(169, 255, 241, 0.45),
+      rgba(62, 91, 255, 0.45)),
+    /* bottom, image */
+    url("../img/bg-masthead.jpg");
 }
