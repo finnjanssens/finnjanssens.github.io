@@ -1,0 +1,61 @@
+body {
+  background: #ccf9ff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ccf9ff), to(white));
+  background: linear-gradient(0deg, #ccf9ff 0%, white 100%);
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Spartan', sans-serif;
+}
+
+.inner {
+  background: #c3ab22;
+  background: -webkit-gradient(linear, left bottom, left top, from(#c3ab22), to(#fdbb2d));
+  background: linear-gradient(0deg, #c3ab22 0%, #fdbb2d 100%);
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  -webkit-clip-path: circle(12% at 82% 26%);
+          clip-path: circle(12% at 82% 26%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.inner:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: #22afc3;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22afc3), to(#2de7fd));
+  background: linear-gradient(0deg, #22afc3 0%, #2de7fd 100%);
+}
+
+.inner h1 {
+  color: white;
+  margin: 0;
+}
+
+.inner p {
+  color: white;
+  font-size: .8rem;
+}
+
+.inner span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-right: 4%;
+}
+
+.inner:hover span {
+  color: rgba(255, 255, 255, 0);
+}
+/*# sourceMappingURL=main.css.map */
